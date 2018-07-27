@@ -1,0 +1,30 @@
+<div class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-select placeholder="Select Name">
+      <mat-option *ngFor="let name of names" [value]="name.value">
+        {{name.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <br>
+  <br>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Full Name" value="">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="Address"></textarea>
+      </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Mobile number" value="">
+    <br>
+  </mat-form-field>
+</div>
+  <br><br>
+<div class="example-button-row">
+  <button mat-flat-button color="accent">Submit</button>
+  <button mat-flat-button color="accent">Update</button>
+  <button mat-flat-button color="accent">Reset</button>
+</div>
+  <!-- <button mat-button>Submit</button>
+  <button mat-button>Update</button>
+  <button mat-button>Reset</button> -->

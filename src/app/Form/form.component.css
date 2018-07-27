@@ -1,0 +1,25 @@
+.example-form {
+   padding-left: 20%;
+    min-width: 200px;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  
+  .example-button-row {
+    padding-left: 35%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+   
+  }
+  
+  .example-button-row button,
+  .example-button-row a {
+    margin-right: 10px;
+ 
+  }
